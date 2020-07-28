@@ -1,0 +1,36 @@
+
+.cellContainer{
+  background-color: #dedede;
+  border-style: solid;
+  border-color: #808080;
+  border-width: 1px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  min-height:50px;
+  height:4.1%;
+  width:13.9%;
+  display: flex;
+
+  flex-shrink: 1;
+  flex-wrap: nowrap;
+}
+
+.emptyCell{
+  border-style: solid;
+  border-color: #808080;
+  border-width: 1px;
+}
+
+.hoverIcon{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  align-items: center;
+  opacity: 0.5;
+  z-index: 9;
+}

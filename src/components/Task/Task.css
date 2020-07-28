@@ -1,0 +1,24 @@
+.task {
+  width: 100%;
+  height: 100%;
+  background: #bad9e3
+}
+.pickup {
+  width: 100%;
+  height: 100%;
+  background: #fffd80
+}
+.dropoff {
+  width: 100%;
+  height: 100%;
+  background: #75d96c
+}
+.other {
+  width: 100%;
+  height: 100%;
+  background: #bad9e3
+}
+
+.title {
+  font-weight: bold;
+}

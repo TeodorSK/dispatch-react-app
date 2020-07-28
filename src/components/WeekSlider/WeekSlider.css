@@ -1,0 +1,21 @@
+.weekContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.arrow{
+  cursor: pointer;
+  align-self: center;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.leftArrow{
+  float: left;
+}
+
+
+
+.rightArrow{
+  float: right;
+}
