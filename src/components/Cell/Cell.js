@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import './Cell.css'
 
 const Cell = ({children, openModal, isTask, index, placeholders, id}) => {
-//key={index} openModal={openModal} isTask={isTask} index={index} placeholders={placeholders}
   const [isHovering, setHovering] = useState(false)
 
   const hoverSymbol = isTask ? `✎` : `+`

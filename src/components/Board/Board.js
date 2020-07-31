@@ -28,7 +28,7 @@ const Board = ({tasks, addTask, editTask, deleteTask, week}) => {
   const [cellFunction, setCellFunction] = useState(() => addTask) //function which runs when user clicks Confirm in modal
   const [isTask, setIsTask] = useState(false)
   const [id, setId] = useState(null)
-
+  let state = Array.from(Array(52), _ => Array.from(Array(7), _ => Array(24).fill(0)))
 
   const openModal = (modalTitle, placeholders, isTask, id) => {
     setPlaceholders(placeholders)
@@ -43,12 +43,8 @@ const Board = ({tasks, addTask, editTask, deleteTask, week}) => {
     }
     setIsOpen(true)
   }
+
   const closeModal = () => setIsOpen(false);
-
-
-  let state = Array.from(Array(52), _ => Array.from(Array(7), _ => Array(24).fill(0)))
-
-  // let week = 0
 
   const fillTasks = (tasks) => {
     tasks.forEach(task => {

@@ -9,7 +9,6 @@ const NewTaskInput = ({cellFunction, closeModal, placeholders, id, deleteTask, i
   const [description, setDescription] = useState(placeholders.description);
   const [location, setLocation] = useState(placeholders.location);
 
-
   const handleSubmit = (e) => {
     e.preventDefault()
     cellFunction(id, taskType, parseInt(startTime), parseInt(endTime)-1, parseInt(day), parseInt(week), location, description)

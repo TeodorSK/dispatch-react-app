@@ -35,13 +35,13 @@
 
 .weekSlider{
   justify-content: center;
+  margin: 20px;
 }
 
 .topRow{
   width: 100%;
-  display: flex;
   justify-content: space-around;
-
+  display: flex;
 }
 
 .logoRow{
@@ -51,7 +51,41 @@
 
 .logo{
   float: left;
-  padding: 30px;
+  padding: 40px;
+}
+
+.conflicts{
+    display: flex;
+    justify-content: space-between;
+}
+
+.overWriteCell{
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.pickup {
+  background: #fffd80
+}
+.dropoff {
+  background: #75d96c
+}
+.other {
+  background: #bad9e3
+}
+
+.driverContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  vertical-align: middle;
+
+}
+
+.driverMenu{
+    padding: 20px;
+    min-width: 400px;
 }
 
 .App-link {

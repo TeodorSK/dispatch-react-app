@@ -16,7 +16,7 @@ const Task = ({id, taskType, start, end, day, week, description, location, topCe
     return (
       <div className={className}>
         <div className="title">{taskType}</div>
-        <div className="time">{start} - {end+1}</div>        
+        <div className="time">{start} - {end+1}</div>
       </div>
     )
   } else {
