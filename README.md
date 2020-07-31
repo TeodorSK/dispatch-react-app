@@ -1,7 +1,7 @@
 # React Dispatcher
 ### Teodor Sandel-Konjevic
 
-##Installation
+## Installation
 
 To run the app, execute the following commands:
 
